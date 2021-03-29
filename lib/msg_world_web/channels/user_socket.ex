@@ -1,8 +1,7 @@
 defmodule MsgWorldWeb.UserSocket do
   use Phoenix.Socket
 
-  ## Channels
-  # channel "room:*", MsgWorldWeb.RoomChannel
+  channel "room:*", MsgWorldWeb.RoomChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After
